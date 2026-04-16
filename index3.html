@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background-color:#f5f5f5;
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+.container{
+width:800px;
+background:white;
+border:2px solid black;
+padding:20px;
+}
+
+.top-section{
+display:flex;
+align-items:center;
+gap:20px;
+border-bottom:2px solid #ccc;
+padding-bottom:20px;
+}
+
+
+.profile-image{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:3px solid black;
+}
+
+
+.bio h2{
+margin:0;
+}
+
+.bio p{
+margin-top:10px;
+}
+
+
+.second-section{
+display:flex;
+justify-content:space-between;
+padding:20px 0;
+border-bottom:2px solid #ccc;
+}
+
+.vertical-line{
+width:2px;
+background:black;
+}
+
+.education, .skills{
+width:45%;
+}
+
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+table, th, td{
+border:1px solid black;
+}
+
+th, td{
+padding:10px;
+}
+
+.contact{
+display:flex;
+justify-content:space-around;
+align-items:center;
+margin-top:20px;
+background:#3498db;
+color:white;
+padding:15px;
+border-radius:5px;
+}
+
+.contact div{
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.contact i{
+font-size:20px;
+}
+
+.fa-whatsapp{
+color:#25D366;
+}
+
+.fa-instagram{
+color:#E1306C;
+}
+
+.fa-phone{
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+ 
+<div class="top-section">
+
+<img src="images/resty.jpg" class="profile-image">
+
+<div class="bio">
+<h2>AJAMBO RESTY</h2>
+
+<p>
+I am a Year 2 Computer Science student passionate about programming,  
+web development and solving real-world problems.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="second-section">
+
+<div class="education">
+<h3>Education</h3>
+<ol>
+<li>Jinja Modeen Senior Secondary School</li>
+<li>Jinja Senior Secondary School</li>
+<li>Kyambogo University</li>
+</ol>
+</div>
+
+<div class="vertical-line"></div>
+
+<div class="skills">
+<h3>Skills</h3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>SystemAdmin in a linux enviroment</li>
+<li>Backend development using Django Framework</li>
+<li>Problem Solving</li>
+</ul>
+</div>
+
+</div>
+
+
+<h3>Educational Background</h3>
+
+<table>
+
+<tr>
+<th>Year</th>
+<th>Institution</th>
+<th>Award</th>
+</tr>
+
+<tr>
+<td>2017 - 2021</td>
+<td>Jinja Modern Senior Secondary School</td>
+<td>Uganda Certificate of Education</td>
+</tr>
+
+<tr>
+<td>2022 - 2023</td>
+<td>Jinja Senior Secondary School</td>
+<td>Uganda Certificate of Education</td>
+</tr>
+  
+<tr>
+<td>2024 - Present</td>
+<td>Kyambogo University</td>
+<td>Bachelor Degree</td>
+</tr>
+
+</table>
+
+<div class="contact">
+
+<div class="contact-item">
+<i class="fa-solid fa-phone"></i>
+<span>+123456789</span>
+</div>
+
+<div class="contact-item">
+<i class="fa-brands fa-whatsapp"></i>
+<span>WhatsApp</span>
+</div>
+
+<div class="contact-item">
+<i class="fa-brands fa-instagram"></i>
+<span>Instagram</span>
+</div>
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
